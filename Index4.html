@@ -1,0 +1,114 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table {
+                border: 1px solid black;
+                width: 500px;
+                border-collapse: collapse;
+            }
+            th,td {
+                border: 1px solid rgb(196, 12, 12);
+                /*cellpadding*/
+                padding: 10px; 
+               
+            }
+            tr {
+                text-align: center;
+            }
+            tr:hover {
+                background-color: antiquewhite;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="Div1" style="background-color: aquamarine; height: 200; width: auto;">
+            <p>This is a paragraph</p>
+        </div>
+        <div id="Div2" style="background-color: rgb(109, 53, 53); height: 200px; width: auto;">
+        <p>This is a another paragraph</p>
+        <div id="div3" style="background-color: bisque; height: 50px; width: 1500px;">
+        <p>This is inside div</p>
+        </div>
+        </div>
+        <h2>Table making</h2>
+        
+        <table>
+            <caption> <b>DATA</b></caption>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>Fav Player</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> AL-AMIN</td>
+                    <td>22</td>
+                    <td>KDB</td>
+                </tr>
+                <tr>
+                    <td>MAHIM</td>
+                    <td>21</td>
+                    <td>Ronaldo</td>
+                </tr>
+                <tr>
+                    <td>RAYHAN</td>
+                    <td>22</td>
+                    <td>Morata</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <caption><em><mark>Colspan Table</mark></em></caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Subject</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rahim</td>
+                    <td>English</td>
+                    <td>Math</td>
+                </tr>
+                <tr>
+                    <td>Karim</td>
+                    <td>Bangla</td>
+                    <td>Chemistry</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <caption><strong>Rowspan Table</strong></caption>
+            <tr>
+                <th rowspan="4">Students</th>
+                <th>Name</th>
+                <th>Roll</th>
+            </tr>
+            <tr>
+               <td>Amin</td>
+               <td>101</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>102</td>
+            </tr>
+            <tr>
+                <td>Alexa</td>
+                <td>103</td>
+            </tr>
+
+        </table>
+
+
+    </body>
+    </html>
